@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" role="img" aria-labelledby="t d"><title id="t">Youth Lens</title><desc id="d">Youth Lens – Real Stories, Real Change</desc>
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#073b82"/><stop offset="1" stop-color="#10aaa7"/></linearGradient></defs>
+<g transform="translate(20 16)">
+<circle cx="105" cy="105" r="78" fill="none" stroke="#0b4d8e" stroke-width="23" stroke-dasharray="108 28 74 28 97 28 80 28" transform="rotate(-18 105 105)"/>
+<circle cx="105" cy="105" r="51" fill="#fff" stroke="#10aaa7" stroke-width="18" stroke-dasharray="74 25 72 25 76 25" transform="rotate(22 105 105)"/>
+<path d="M80 66v78l63-39z" fill="#f5a623"/>
+<path d="M155 161c19 6 30 13 43 27-8-21-15-34-28-49" fill="#10aaa7"/>
+</g>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="230" y="92" font-size="64" font-weight="700" fill="#073b82" letter-spacing="2">YOUTH</text>
+<text x="230" y="157" font-size="64" font-weight="700" fill="#10aaa7" letter-spacing="2">LENS</text>
+<path d="M520 76l28-24M533 91l33-10M532 106l31 8" stroke="#f5a623" stroke-width="8" stroke-linecap="round"/>
+<text x="232" y="202" font-size="25" font-weight="700" fill="#65758b">Real Stories, Real Change</text>
+</g></svg>
