@@ -17,13 +17,16 @@
 .article-lead{font-size:20px!important;color:#30475f!important;font-weight:600}
 @media(max-width:640px){.photo-gallery{grid-template-columns:1fr}.kickoff-hero{margin:24px 0 34px}}
 
-/* Give CHANCENGLEICH's detailed emblem and wordmark enough room without altering the other partner logos. */
+/* Official CHANCENGLEICH emblem and wordmark: full height, no cropping or stretching. */
 .partner-grid .partner-logo--germany{
-  width:min(194px,calc(100% - 64px));
-  height:96px;
+  display:block;
+  width:min(244px,calc(100% - 64px));
+  height:auto;
+  max-height:110px;
+  aspect-ratio:25 / 11;
   min-width:0;
   object-fit:contain;
   object-position:left center;
   flex-shrink:1;
 }
-.partner-grid .partner:has(.partner-logo--germany) .partner-identity{min-height:100px}
+.partner-grid .partner:has(.partner-logo--germany) .partner-identity{min-height:112px}
