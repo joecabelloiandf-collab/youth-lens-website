@@ -1,3 +1,8 @@
+if (window.location.hostname === "www.youthlensproject.com") {
+  const target = "https://youthlensproject.com" + window.location.pathname + window.location.search + window.location.hash;
+  window.location.replace(target);
+}
+
 const T={
 en:{
 "nav.about":"About","nav.activities":"Activities","nav.partners":"Partners","nav.stories":"Youth Stories","nav.toolkit":"Toolkit","nav.news":"News","nav.impact":"Impact",
