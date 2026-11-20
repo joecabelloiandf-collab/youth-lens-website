@@ -3,6 +3,11 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <script>
+    if (location.hostname === "www.youthlensproject.com") {
+      location.replace("https://youthlensproject.com" + location.pathname + location.search + location.hash);
+    }
+  </script>
   <meta name="description" content="Youth Lens – Real Stories, Real Change. Erasmus+ Youth project supporting youth voice through documentary storytelling and digital media."/>
   <title>Youth Lens – Real Stories, Real Change</title>
   <link rel="canonical" href="https://youthlensproject.com/"/>
