@@ -17,17 +17,20 @@
 .article-lead{font-size:20px!important;color:#30475f!important;font-weight:600}
 @media(max-width:640px){.photo-gallery{grid-template-columns:1fr}.kickoff-hero{margin:24px 0 34px}}
 
-/* Balance the three partner marks visually while preserving original aspect ratios. */
+/* Equalise apparent logo height, not just image boxes: marks have different aspect ratios. */
 .partner-grid .partner-logo{
-  width:118px;
-  height:76px;
+  display:block;
+  width:135px; /* Montemar 320:145 -> ~61 px drawn high */
+  height:72px;
   object-fit:contain;
   object-position:left center;
 }
+.partner-grid .partner:nth-child(2) .partner-logo{
+  width:min(175px,calc(100% - 64px)); /* YENGEC 205:68 -> ~58 px high */
+}
 .partner-grid .partner-logo--germany{
-  display:block;
-  width:min(158px,calc(100% - 64px));
-  height:76px;
+  width:min(138px,calc(100% - 64px)); /* CHANCENGLEICH 250:110 -> ~61 px high */
+  height:72px;
   min-width:0;
   object-fit:contain;
   object-position:left center;
